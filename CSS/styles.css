@@ -1,0 +1,39 @@
+/* Entire Page Formatting */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #0047AB;
+}
+
+h1, h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+color: white;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.big-heading {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+.title-image {
+  text-align: center;
+  width: 20%;
+  padding-bottom: 80px;
+}

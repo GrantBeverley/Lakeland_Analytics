@@ -2,7 +2,7 @@
 body {
   font-family: "Montserrat";
   text-align: center;
-  background-color: #0047AB;
+  padding-top: 40px;
 }
 
 h1, h2 {
@@ -10,30 +10,280 @@ h1, h2 {
 }
 
 h1 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-color: white;
+  color: white;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
-  padding-bottom: 40px;
   font-size: 2.5rem;
 }
 
-p {
-  font-size: 1.5rem;
+h3 {
+  font-family: 'Ubuntu', sans-serif;
   color: white;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+h5 {
+  color: #0047AB;
+}
+
+h7 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 0.75rem;
+}
+
+p {
+/*  font-size: 1.25rem; */
+  font-size: 22px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+p1 {
+  font-size: 0.75rem;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.small-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  color: #001157;
+}
+
+.small-text-white {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+#email {
+  width: 40px;
+  padding-left: 10px;
+}
+
+ul {
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.icon:hover {
+  color: #0047AB;
+}
+
+.icon {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.iconPoint {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.feature-headings {
+  padding-bottom: 20px;
+}
+
+.feature-text {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item {
+/*  font-size: 1rem; */
+font-size: 20px;
+}
+
+
+.light-section {
+  background-color: #0047AB;
+  background-image: url(../images/analysis2.jpg);
+  background-blend-mode: hard-light;
+  padding: 50px;
+}
+
+.dark-section {
+  padding: 50px;
+  background-color: #001157;
+  color: white;
+}
+
+.socialmedia-dark-section {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  background-color: #001157;
+  color: white;
+}
+
+.grantList {
+  padding-left: 25%;
+  padding-right: 25%
+}
+
+.btn {
+  background-color: #b21cb1;
+  border-color: #8a0c9c;
+}
+
+.form {
+  width: 70%;
+}
+
+.btn:hover {
+  background-color: #a5c28e;
+  border-color: #297460;
+}
+
+.team-text {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.0rem;
+}
+
+.teamTitle-text {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
 }
 
 .big-heading {
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.small-heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.smaller-heading {
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: white;
 }
 
 .title-image {
   text-align: center;
-  width: 40%;
+  width: 35%;
   padding-bottom: 80px;
+}
+
+.rule {
+  color: white;
+}
+
+.form {
+  margin: auto;
+  text-align: center;
+}
+
+.staff {
+  padding-left: 120px;
+  padding-right: 120px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.work-images {
+  width: 70%;
+  border-radius: 0%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-style: outset;
+}
+
+.ms-images1 {
+  width: 15%;
+  border-radius: 0%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.ms-images2 {
+  width: 7.5%;
+  border-radius: 0%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.ms-images3 {
+  width: 2.6%;
+  border-radius: 0%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.finger-point {
+  width: 150px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.work-labels {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #B4dc7f;
+}
+
+.social-icon {
+  width: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social_media {
+  padding-bottom: 5px;
+}
+
+.examples {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.carousel .carousel-item {
+  transition-duration: 2s;
+}
+
+.carousel-item, .iconPoint {
+
+  color: white;
+/*
+  color: #B4dc7f;
+*/
+  font-size: 20px;
+}
+
+.twitter-timeline {
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
 }
